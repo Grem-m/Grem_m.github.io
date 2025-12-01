@@ -1,0 +1,111 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+/* general settings for things that have no specific decorations */
+* {
+    background-color: white;
+    color: black;
+    font-family: serif;
+    font-size: 16px;
+}
+
+
+/* generally useful section specifications */
+body {
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+}
+
+a href {
+    color: blue;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.columnB img {
+    margin: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+article {
+    text-align: left;
+    margin: 30px;
+}
+
+/* stuff I "borrowed" from a geeksforgeeks tutorial here: https://www.geeksforgeeks.org/css/css-website-layout/*/
+.header {
+    background-color: lavender;
+    color: white;
+    font-weight: bold;
+}
+
+.header h2 {
+    color: white;
+    margin: 0;
+}
+
+/* nav menu */
+.nav_menu {
+    overflow: hidden;
+    background-color: darkgrey;
+}
+
+.nav_menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_menu a:hover {
+    background-color: white;
+    color: green;
+}
+
+/* creating a column structure for the main page */
+.wrapper {
+    width: 100%;
+}
+
+.columnA, .columnB {
+    text-align: center;
+    color: black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.columnA {
+    width: 20%;
+    float: left;
+    color: darkgrey;
+    border: 1px solid black;
+}
+
+.columnB {
+    width: 80%;
+    float: right;
+    border 1px solid black;
+}

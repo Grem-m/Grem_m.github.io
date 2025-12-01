@@ -1,146 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <title>Grem_m</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale-1">
-    <style>
-        body 
-        {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        /*style header*/
-        .header
-        {
-            padding: 80px;
-            text-align: center;
-            background: #967BB6;
-            color: white;
-        }
-        /*style navbar*/
-        .navbar
-        {
-            overflow: hidden;
-            background-color: #333;
-        }
-        /*Style navigation bar links*/
-        .navbar a
-        {
-            float: left; /*ensure links stay side by side*/
-            display: block; /*change display to block to increase responsiveness*/
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none; /*remove underline*/
-        }
-        /*right aligned link*/
-        .navbar a.right
-        {
-            float: right; /*float a link to the right*/
-        }
-
-        /*change colour on mouse hover*/
-        .navbar a:hover
-        {
-            background-color: #ddd;
-            color: black;
-        }
-
-        /*use flexbox to properly size main content*/
-        /*ensure correct size*/
-        * 
-        {
-            box-sizing: border-box;
-        }
-        /*column container*/
-        .row
-        {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        /*create two unequal columns next to each other*/
-        /*sidebar*/
-        .side
-        {
-            flex: 30%; /*set width of sidebar*/
-            background-color: grey;
-            padding: 20px;
-        }
-
-        /*main content*/
-        .main
-        {
-            flex: 70%; /*set width of main content*/
-            background-color: white;
-            padding: 20px;
-        }
-
-        /*style footer*/
-        .footer
-        {
-            padding: 20px;
-            text-align: center;
-            background: #ddd;
-        }
-
-        /*responsive layout time!*/
-        /*if screen less than 700px wide, make columns stack instead of being side by side*/
-        @media screen and (max-width: 700px)
-        {
-            .row
-            {
-                flex-direction: column;
-            }
-        }
-        /*when screen less than 400px wide, make nav links stack on top of each other instead of side by side*/
-        @media screen and (max-width: 400px)
-        {
-            .navbar a
-            {
-                float: none;
-                width: 100%;
-            }
-        }
-    </style>
-</head>
-
-<body>
-
-    <div class="header">
-        <h1>Grem_m's programmer website</h1>
-        <p>my website for professional promotion and engagement</p>
-    </div>
-
-    <div class="navbar">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a hred="#" class="right">Link</a>
-    </div>
-
-    <div class="row">
-        <div class="side">
-            <h3>Profile</h3>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grems Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class="header">
+            <h1>Grems Website :3</h1>
+        </div>
+        
+        <!-- left sidebar section -->
+        <div class="columnA">
+            <!-- TODO insert sidebar content here -->
+        </div>
+    
+        <!-- main page section -->
+        <div class="columnB">
+            <h3>Full stack dev and maker of things other people have done better already</h3>
+    
+            <a href="mailto:cecilia.graefe@proton.me">My Email</a>
+            <h2>Interests</h2>
+    
             <ul>
-                <li>Started: 12/02/2025</li>
-                <li>Role: Software Developer</li>
-                <li>Hobbies: Skateboarding, Reading, Cooking</li>
+                <li>
+                    <a href="https://github.com/Grem-m">Programming</a>
+                </li>
+                <li>Sewing</li>
+                <li>Cooking</li>
+                <li>
+                    <a href="MyFavouriteVideoGames/MyFavouriteVideoGames.html">Video Games</a>
+                </li>
             </ul>
         </div>
-        <div class="main">
-            <p>put links to best projects here, also maybe make a css file for this</p>
-        </div>
-    </div>
-
-    <div class="footer">
-        <h2>Footer</h2>
-    </div>
-    
 
     
-
-
-</body>
+        <figure>
+            <a href="http://neocities.org">
+                <img src="/neocities.png" alt="hosted by neocities">
+            </a>
+        </figure>
+    </body>
 </html>
